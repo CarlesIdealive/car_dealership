@@ -8,6 +8,9 @@ import { CarsService } from './cars.service';
 ],
   providers: [
     CarsService
+],
+exports: [
+    CarsService
 ]
 })
 export class CarsModule {

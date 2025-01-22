@@ -21,6 +21,12 @@ export class BrandsService {
     // },
   ];
 
+  public populateDB(brands : Brand[]) {
+    this.brands = brands
+
+  }
+
+
 
   create(createBrandDto: CreateBrandDto) : Brand {
     const brand: Brand = {

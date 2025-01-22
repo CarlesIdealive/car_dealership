@@ -25,6 +25,12 @@ export class CarsService {
         // }
     ]
 
+
+    public populateDB(cars: Car[]) {
+        this.cars = cars ;
+    }
+
+
     public getAllCars(): Car[] { 
         return this.cars;
     }
